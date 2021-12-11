@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>INICIAR VIAJE</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/nice-select.css">							
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/jquery-ui.css">			
+			<link rel="stylesheet" href="css/main.css">
+			
+		
+		</head>
+		<body>	
+			  <header id="header">
+		  		<div class="header-top">
+				</div>
+			    <div class="container main-menu">
+			    	<div class="row align-items-center justify-content-between d-flex">
+			    		<a href="index.html">EasyTaxi</a>		
+						<nav id="nav-menu-container">
+							<ul class="nav-menu">
+							  <li class="menu-active"><a href="index.html">INICIO</a></li>
+							  <li><a href="about.html">ACERCA DE</a></li>
+							  <li><a href="service.html">SERVICIOS</a></li>
+							  <li><a href="gallery.html">GALERÍA</a></li>
+							  <li><a href="login.html">CERRAR sESION</a></li>	  			          	          
+							  <script src = "https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+							</ul>
+						</nav><!-- #nav-menu-container -->		
+			    	</div>
+			    </div>
+			  </header><!-- #header -->
+
+			<!-- start banner Area -->
+			<section class="banner-area relative" id="home">
+				<div class="overlay overlay-bg"></div>	
+				<div class="container">
+					<div class="row fullscreen d-flex align-items-center justify-content-between">
+						<div class="banner-content col-lg-6 col-md-6 ">
+							<h6 class="text-white ">Necesitas un taxi? Inicialo en Linea </h6>
+							<h1 class="text">
+								EasyTaxi			
+							</h1>
+							<p class="pt-10 pb-10 text-white">
+								Disfruta viajando a diferentes ciudades con EasyTaxi, los mejores precios están aqui.
+							</p>
+							<a href="#" class="primary-btn text-uppercase"></a>
+						</div>
+						<script>
+							languaje = "JavaScript";
+							var prueba = document.getSelection("1");
+
+						</script>
+						<script> languaje="JavaScript"
+							function pulsar(){
+								alert("PERFECTO, EN SEGUIDA INICIARA SU VIAJE!! Recomendacion: use cubrebocas al subir al vehiculo,\nEviten subir mas de 5 pasajeros incluyendo el conductor.");
+								
+							}
+							function informacion()
+							{
+								swal({
+									title: "Informacion",
+									text: "Eviten subir mas de 5 pasajeros incluyendo el conductor",
+									timer:3000,
+									showConfirmButton: false
+								});
+							}
+							function comparar()
+							{
+								
+								
+								var valor = $('#lista').val();
+								var valor2 = $('#lista2').val();
+								
+								if(valor == 2 && valor2 == 11)
+								{
+									location.href = "zacatecas-guadalupe.html";
+								}
+								
+								if(valor == 5 && valor2 ==3)
+								{
+									location.href = "valparaiso-jerez.html"
+								}
+								
+								if(valor == 1 && valor2 == 4)
+								{
+									location.href = "trancoso-mazapil.html"
+								}
+								
+								
+							}
+							
+													
+						  </script>	
+						<div class="col-lg-4  col-md-6 header-right">
+							<h4 class="pb-30">Reserva tu taxi en linea!</h4>
+							<form class="form">
+							    <div class="from-group">
+							    	<input class="form-control txt-field" type="text" name="name" placeholder="Nombre"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'">
+							    	<input class="form-control txt-field" type="email" name="email" placeholder="Correo electronico" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'">
+							    	<input class="form-control txt-field" type="tel" name="phone" placeholder="Numero de telefono" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone number'">
+							    </div>								
+							    <div class="form-group">
+									<div class = "default-select" id = "default-select">
+										<select id="lista">
+											<option value="0" disabled selected hidden>ELIGA ORIGEN</option>
+												
+												<option value="1">TRANCOSO</option>
+												<option value="2">ZACATECAS</option>
+												<option value="3">JEREZ</option>
+												<option value="4">MAZAPIL</option>
+												<option value="5">VALPARAISO</option>
+												<option value="6">VILLANUEVA</option>
+												<option value="7">JALPA</option>
+												<option value="8">CALERA</option>
+												<option value="9">FRESNILLO</option>
+												<option value="10">SOMBRERETE</option>
+												<option value="11">GUADALUPE</option>
+										</select>
+									</div>
+									
+							    </div>
+							    <div class="form-group">
+
+									<div class = "default-select" id = "default-select">
+										<select id="lista2">
+											<option value="0" disabled selected hidden>ELIGA DESTINO</option>
+												
+												<option value="1">TRANCOSO</option>
+												<option value="2">ZACATECAS</option>
+												<option value="3">JEREZ</option>
+												<option value="4">MAZAPIL</option>
+												<option value="5">VALPARAISO</option>
+												<option value="6">VILLANUEVA</option>
+												<option value="7">JALPA</option>
+												<option value="8">CALERA</option>
+												<option value="9">FRESNILLO</option>
+												<option value="10">SOMBRERETE</option>
+												<option value="11">GUADALUPE</option>
+										</select>
+									</div>
+							    </div>							    
+							    <div class="form-group">
+									<div class="input-group dates-wrap">                                              
+										<input id="datepicker2" class="dates form-control"  placeholder="FECHA Y HORA" type="text">                        
+										<div class="input-group-prepend">
+											<span  class="input-group-text"><span class="lnr lnr-calendar-full"></span></span>
+										</div>											
+									</div>
+							    </div>	
+													    
+							    <div class="form-group">
+
+							            
+                                        <a onclick="pulsar(); comparar()  "   class="btn btn-default btn-lg btn-block text-center text-uppercase">Iniciar Viaje</a>
+							    </div>
+							</form>
+						</div>											
+					</div>
+				</div>					
+			</section>
+			<!-- End banner Area -->	
+
+							
+			<!-- Start home-calltoaction Area -->
+			<section class="home-calltoaction-area relative">
+				<div class="container">
+					<div class="overlay overlay-bg"></div>
+					<div class="row align-items-center section-gap">
+						<div class="col-lg-8">
+							<h1>EXCELENTES EXPERIENCIAS</h1>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+							</p>
+						</div>
+						<div class="col-lg-4 btn-left">
+							<a href="#" class="primary-btn">Subir</a>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End home-calltoaction Area -->
+			
+			
+			
+			<!-- start footer Area -->		
+			<footer class="footer-area section-gap">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-2 col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>EasyTaxi</h6>							
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>EasyTaxi</h6>
+																
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>EasyTaxi</h6>
+																
+							</div>
+						</div>												
+						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+							<div class="single-footer-widget">
+								<h6>Siguenos</h6>
+								<p>Busca Nuestra red social</p>
+								<div class="footer-social d-flex align-items-center">
+									<a href="https://web.facebook.com/giovanny.angel.526/"><i class="fa fa-facebook"></i> Giovanny Hernandez</a>
+									<a href="https://web.facebook.com/josejesus.martinezcervantes"><i class="fa fa-facebook"></i> José Martínez</a>
+									
+								</div>
+							</div>
+						</div>							
+						<div class="col-lg-4  col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>Newsletter</h6>
+								<p>Stay update with our latest</p>
+								<div class="" id="mc_embed_signup">
+									<form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
+										<input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+			                            	<button class="click-btn btn btn-default"><span class="lnr lnr-arrow-right"></span></button>
+			                            	<div style="position: absolute; left: -5000px;">
+												<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+											</div>
+
+										<div class="info"></div>
+									</form>
+								</div>
+							</div>
+						</div>	
+						<p class="mt-80 mx-auto footer-text col-lg-12">
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Prototipo para reingeniería, hecho por José Martínez y Giovanny Hernandez</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						</p>											
+					</div>
+				</div>
+				<img class="footer-bottom" src="img/footer-bottom.png" alt="">
+			</footer>	
+			<!-- End footer Area -->	
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>			
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+ 			<script src="js/jquery-ui.js"></script>								
+			<script src="js/jquery.nice-select.min.js"></script>							
+			<script src="js/mail-script.js"></script>	
+			<script src="js/main.js"></script>	
+		</body>
+	</html>
